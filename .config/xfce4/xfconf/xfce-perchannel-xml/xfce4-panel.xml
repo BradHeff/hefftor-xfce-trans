@@ -61,9 +61,7 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
-        <value type="string" value="flameshot"/>
-        <value type="string" value="obs"/>
-        <value type="string" value="skypeforlinux"/>
+        <value type="string" value="blueman-tray"/>
         <value type="string" value="pidgin"/>
         <value type="string" value="evolution-alarm-notify"/>
         <value type="string" value="insync"/>
@@ -91,9 +89,12 @@
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1042576;chromium.instance620093;pragha;spotify;strawberry;vlc;vlc.instance38060"/>
+      <property name="mpris-players" type="string" value="pragha;spotify;strawberry;vlc;vlc.instance38060"/>
     </property>
     <property name="plugin-1" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>
